@@ -121,7 +121,7 @@
     align-items: center;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-    font-size: 0.6rem;
+    font-size: 0.4rem;
     font-weight: bold;
 }
 
@@ -184,6 +184,6 @@ body.dark-mode .card-image img {
     .add-to-cart-btn {
         width: 25px;
         height: 25px; /* Smaller button */
-        font-size: 1rem;
+        font-size: 0.6rem;
     }
 }
