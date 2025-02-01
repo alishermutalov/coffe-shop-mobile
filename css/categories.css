@@ -1,0 +1,41 @@
+.categories-content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.category-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+.category-item {
+    background-color: #8b9467;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+.categories-content h1{
+    padding-bottom: 50px;
+    text-align: center;
+    
+}
+
+.category-item:hover {
+    background-color: #6d7555;
+}
+
+body.dark-mode .categories-content {
+    background-color: #121212;
+    color: #ffffff;
+}

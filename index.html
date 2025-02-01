@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+    <title>Home - Coffee Shop</title>
+</head>
+<body>
+    <!-- Fixed Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="./images/icons8-coffee-64.png" alt="Coffee Shop Logo">
+        </div>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+            <span id="theme-icon">☀️</span>
+        </button>
+    </header>
+
+    <!-- Advertisement Card -->
+    <section class="advertisement-card" aria-label="Advertisement">
+        <div class="ad-image-container">
+            <img src="./images/4223647.jpg" alt="Coffee Ad 1" class="ad-image active">
+            <img src="./images/5979292.jpg" alt="Coffee Ad 2" class="ad-image">
+            <img src="./images/9669849.jpg" alt="Coffee Ad 3" class="ad-image">
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="product-section" aria-label="Products">
+            <div class="product-card">
+                <div class="card-image">
+                    <img src="./images/vecteezy_espresso-coffee-isolated-illustration_23434641.jpg" alt="Espresso">
+                </div>
+                <div class="card-details">
+                    <h3>Espresso</h3>
+                    <p>$4.99</p>
+                    <div class="card-actions">
+                        <a href="details.html?name=Espresso&price=4.99" class="details-btn">Details</a>
+                        <button class="add-to-cart-btn" aria-label="Add Espresso to cart">
+                            <span>+</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="card-image">
+                    <img src="./images/vecteezy_cappuccino-cup-isolated-illustration_22989794.jpg" alt="Cappuccino">
+                </div>
+                <div class="card-details">
+                    <h3>Cappuccino</h3>
+                    <p>$5.99</p>
+                    <div class="card-actions">
+                        <a href="details.html?name=Cappuccino&price=5.99" class="details-btn">Details</a>
+                        <button class="add-to-cart-btn" aria-label="Add Cappuccino to cart">
+                            <span>+</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="card-image">
+                    <img src="./images/coffe.png" alt="Latte">
+                </div>
+                <div class="card-details">
+                    <h3>Latte</h3>
+                    <p>$6.49</p>
+                    <div class="card-actions">
+                        <a href="details.html?name=Latte&price=6.49" class="details-btn">Details</a>
+                        <button class="add-to-cart-btn" aria-label="Add Latte to cart">
+                            <span>+</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="card-image">
+                    <img src="./images/coffe-2.png" alt="Mocha">
+                </div>
+                <div class="card-details">
+                    <h3>Mocha</h3>
+                    <p>$7.99</p>
+                    <div class="card-actions">
+                        <a href="details.html?name=Mocha&price=7.99" class="details-btn">Details</a>
+                        <button class="add-to-cart-btn" aria-label="Add Mocha to cart">
+                            <span>+</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Custom Alert Modal -->
+        <div id="custom-alert" class="custom-alert hidden">
+            <div class="alert-box">
+                <h2 id="alert-title">Alert Title</h2>
+                <p id="alert-message">This is the alert message.</p>
+                <button id="alert-close-btn" class="alert-close-btn">Close</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Fixed Footer -->
+    <footer class="footer">
+        <a href="index.html" class="footer-btn" id="home-btn" aria-label="Home">
+            <img src="./images/icons8-home-64.png" alt="Home">
+        </a>
+        <a href="cart.html" class="footer-btn" id="cart-btn" aria-label="Cart">
+            <img src="./images/icons8-cart-64.png" alt="Cart">
+        </a>
+        <a href="categories.html" class="footer-btn" id="categories-btn" aria-label="Categories">
+            <img src="./images/icons8-grid-64.png" alt="Categories">
+        </a>
+        <a href="discounts.html" class="footer-btn" id="discounts-btn" aria-label="Discounts">
+            <img src="./images/icons8-discount-64.png" alt="Discounts">
+        </a>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
